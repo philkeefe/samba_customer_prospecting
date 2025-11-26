@@ -6,3 +6,4 @@ pyproj
 shapely
 altair
 numpy
+scipy
