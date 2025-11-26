@@ -30,7 +30,7 @@ body_text(
     "can meaningfully enhance their media strategy, while giving sales teams clear, "
     "consultative visuals to guide conversations. It should demonstrate how geo-based "
     "audiences can strengthen campaign planning and later show whether postcode-level "
-    "reach expanded after activation, enabling credible impact measurement in markets "
+    "reach expanded after activation, providing sound planning and measurement in markets "
     "where PII-based targeting is limited."
 )
 
@@ -48,10 +48,12 @@ st.dataframe(df_sample, use_container_width=True)
 
 # Description paragraph
 body_text(
-    "The table above contains a representative Samba TV dataset used solely for the "
-    "purpose of building this prototype. While modeled after real reporting structures, "
+    "The table above contains a sample of illustrative Samba TV data used solely for "
+    "the purpose of building this prototype. While modeled after real data structures, "
     "the underlying values are synthetic and included only to demonstrate how the tool "
-    "would operate with production data."
+    "would operate with production data. The file contained 10 brands, covered the time "
+    "period from January 1, 2024 through February 11, 2024, and was limited to the four "
+    "fields shown above. Data represented the Austrainian market only."
 )
 
 # ABS data description
@@ -73,7 +75,7 @@ st.markdown(
 
 # --- ADDITIONAL RESOURCES ---
 
-section_title("Additional Resources")
+section_title("Additional Resources and Methodology")
 
 body_text(
     "Python was used throughout this exercise for data preparation, statistical analysis, "
